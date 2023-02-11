@@ -11,6 +11,12 @@ function Navbar() {
                     <span className="bar-title">Cloud X Retro</span>
                 </div>
                 <div className="uk-navbar-right">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
                 </div>
             </nav>
         </div>
