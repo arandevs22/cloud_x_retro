@@ -1,0 +1,42 @@
+html{
+  background: #121212;
+  color: #fff;
+}
+
+
+.uk-navbar-container:not(.uk-navbar-transparent){
+    background: #232323;
+    -webkit-box-shadow: 0 10px 6px -6px #000;
+    -moz-box-shadow: 0 10px 6px -6px #000;
+    box-shadow: 0 10px 6px -6px #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bar-title{
+  font-size: 1.2rem;
+}
+
+.cover{
+  border-radius: 15px;
+}
+
+.uk-grid.slider{
+  margin-right: -220px;
+}
+
+.uk-navbar-left, .uk-navbar-right, [class*=uk-navbar-center]{
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.uk-dotnav>*>*{
+  background-color: #232323;
+  border-color: #232323;
+}
+
+.uk-dotnav>.uk-active>*{
+  background-color: #BB86fc;
+}
