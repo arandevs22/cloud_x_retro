@@ -39,6 +39,10 @@ button{
   background-color: #BB86fc;
 }
 
+.uk-offcanvas-bar{
+  background: #121212;
+}
+
 .material-symbols-outlined.sideMenu{
   color: #BB86fc;
 }

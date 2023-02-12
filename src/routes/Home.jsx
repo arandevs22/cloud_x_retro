@@ -12,7 +12,9 @@ function Home() {
                     <div className="uk-slider-container">
                         <ul className="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid slider">
                             <li>
-                                <img className="cover" src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/b5403b2d202b8fe1db69b68b2c0c5e2b.jpg" alt="" />
+                                <a href="go:gm01">
+                                    <img className="cover" src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/b5403b2d202b8fe1db69b68b2c0c5e2b.jpg" alt="" />
+                                </a>
                             </li>
                             <li>
                                 <img className="cover" src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/674e68d7f978c31eafc8e7a300ce9bc2.jpg" alt="" />

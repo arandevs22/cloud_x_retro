@@ -6,7 +6,7 @@ function Navbar() {
             <nav data-uk-navbar data-uk-sticky className="uk-navbar-container">
                 <div className="uk-navbar-left">
                     <button type="button" data-uk-toggle="target: #side-menu">
-                        <span class="material-symbols-outlined">
+                        <span class="material-symbols-outlined sideMenu">
                             menu
                         </span>
                     </button>
@@ -20,6 +20,16 @@ function Navbar() {
                                         </span>
                                         <span className="menu-text">
                                             Inicio
+                                        </span>
+                                    </a>
+                                </li>
+                                <li className="uk-active">
+                                    <a href="">
+                                        <span className="material-symbols-outlined sideMenu uk-margin-right">
+                                            favorite
+                                        </span>
+                                        <span className="menu-text">
+                                            Mis Favoritos
                                         </span>
                                     </a>
                                 </li>
@@ -63,10 +73,10 @@ function Navbar() {
                     <span className="bar-title">Cloud X Retro</span>
                 </div>
                 <div className="uk-navbar-right">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined sideMenu">
                         search
                     </span>
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined sideMenu">
                         account_circle
                     </span>
                 </div>
