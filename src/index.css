@@ -3,6 +3,12 @@ html{
   color: #fff;
 }
 
+button{
+  color: #fff;
+  background: none;
+  box-shadow: none;
+  border-color: transparent;
+}
 
 .uk-navbar-container:not(.uk-navbar-transparent){
     background: #232323;
@@ -13,14 +19,6 @@ html{
     padding-right: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-
-.bar-title{
-  font-size: 1.2rem;
-}
-
-.cover{
-  border-radius: 15px;
 }
 
 .uk-grid.slider{
@@ -39,4 +37,24 @@ html{
 
 .uk-dotnav>.uk-active>*{
   background-color: #BB86fc;
+}
+
+.material-symbols-outlined.sideMenu{
+  color: #BB86fc;
+}
+
+.bar-title{
+  font-size: 1.2rem;
+}
+
+.cover{
+  border-radius: 15px;
+}
+
+.error-image{
+  width: 250px;
+}
+
+.menu-text{
+  font-size: 20px;
 }
