@@ -1,7 +1,10 @@
+import Navbar from "../components/Navbar";
+
 function Home() {
     return (
-        <div className="uk-margin-small-top">
-            <div data-uk-slider className="uk-margin-left">
+        <div>
+            <Navbar />
+            <div data-uk-slider className="uk-margin-left uk-margin-top">
                 <div className="uk-position-relative">
                     <div className="uk-margin-small-bottom">
                         <span>Juegos Recomendados</span>
