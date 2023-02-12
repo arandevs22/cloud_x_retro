@@ -4,13 +4,18 @@ function Home() {
     return (
         <div>
             <Navbar />
-            <div data-uk-slider className="uk-margin-left uk-margin-top">
+            <div data-uk-slider className="uk-margin-top uk-margin-left">
                 <div className="uk-position-relative">
-                    <div className="uk-margin-small-bottom">
-                        <span>Juegos Recomendados</span>
-                    </div>
                     <div className="uk-slider-container">
-                        <ul className="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid slider">
+                        <div className="uk-clearfix uk-margin-small-bottom">
+                            <div className="uk-float-right">
+                                <span></span>
+                            </div>
+                            <div className="uk-float-left">
+                                <span>Recomendados</span>
+                            </div>
+                        </div>
+                        <ul className="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid-small slide" data-uk-grid>
                             <li>
                                 <a href="go:gm01">
                                     <img className="cover" src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/b5403b2d202b8fe1db69b68b2c0c5e2b.jpg" alt="" />
@@ -45,7 +50,7 @@ function Home() {
                         <span>Game Boy Advance</span>
                     </div>
                 </div>
-                <ul className="uk-slider-items uk-child-width-1-3 uk-grid">
+                <ul className="uk-slider-items uk-child-width-1-3 uk-grid-small slide-cover" data-uk-grid>
                     <li>
                         <img className="cover" src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/a9fcbba7da26095ce5010a39b8a36509.jpg" alt="" />
                     </li>

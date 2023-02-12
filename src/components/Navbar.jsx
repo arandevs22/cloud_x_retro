@@ -1,3 +1,5 @@
+import Logo from '../assets/logo.svg'
+
 function Navbar() {
 
 
@@ -6,7 +8,7 @@ function Navbar() {
             <nav data-uk-navbar data-uk-sticky className="uk-navbar-container">
                 <div className="uk-navbar-left">
                     <button type="button" data-uk-toggle="target: #side-menu">
-                        <span class="material-symbols-outlined sideMenu">
+                        <span class="material-symbols-outlined">
                             menu
                         </span>
                     </button>
@@ -70,13 +72,15 @@ function Navbar() {
                             </ul>
                         </div>
                     </div>
-                    <span className="bar-title">Cloud X Retro</span>
+                    <div>
+                        <img className='logo' src={Logo} alt="" />
+                    </div>
                 </div>
                 <div className="uk-navbar-right">
-                    <span class="material-symbols-outlined sideMenu">
+                    <span class="material-symbols-outlined">
                         search
                     </span>
-                    <span class="material-symbols-outlined sideMenu">
+                    <span class="material-symbols-outlined">
                         account_circle
                     </span>
                 </div>
