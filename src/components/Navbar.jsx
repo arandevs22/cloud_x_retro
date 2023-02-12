@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Logo from '../assets/logo.svg'
 
 function Navbar() {
@@ -16,14 +17,14 @@ function Navbar() {
                         <div className="uk-offcanvas-bar uk-flex uk-flex-column">
                             <ul className="uk-nav" data-uk-nav>
                                 <li className="uk-active">
-                                    <a href="">
+                                    <Link to={'/'}>
                                         <span className="material-symbols-outlined sideMenu uk-margin-right">
                                             home
                                         </span>
                                         <span className="menu-text">
                                             Inicio
                                         </span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="uk-active">
                                     <a href="">
@@ -57,14 +58,14 @@ function Navbar() {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <Link to={'/consoles/game-boy-advance'}>
                                                 <span class="material-symbols-outlined uk-margin-right sideMenu">
                                                     gamepad
                                                 </span>
                                                 <span>
                                                     Game Boy Advance
                                                 </span>
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </li>
