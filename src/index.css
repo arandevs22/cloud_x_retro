@@ -22,7 +22,12 @@ button{
 }
 
 .uk-grid.slider{
-  margin-right: -220px;
+  margin-right: -415px;
+}
+
+
+.uk-grid>*{
+  margin-right: -15px;
 }
 
 .uk-navbar-left, .uk-navbar-right, [class*=uk-navbar-center]{

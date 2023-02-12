@@ -45,7 +45,7 @@ function Home() {
                         <span>Game Boy Advance</span>
                     </div>
                 </div>
-                <ul className="uk-slider-items uk-child-width-1-4 uk-grid slider">
+                <ul className="uk-slider-items uk-child-width-1-3 uk-grid">
                     <li>
                         <img className="cover" src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/a9fcbba7da26095ce5010a39b8a36509.jpg" alt="" />
                     </li>
