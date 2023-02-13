@@ -41,7 +41,7 @@ function GameBoyAdvance() {
                         </Link>
                     </li>
                     <li id="castlevania-aria-of-sorrow" data-color="plataforma">
-                        <Link to={'/game-boy-advance/metal-slug-advance'}>
+                        <Link to={'/game-boy-advance/castlevania-aria-of-sorrow'}>
                             <img className="cover" src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/a9fcbba7da26095ce5010a39b8a36509.jpg" alt="" />
                         </Link>
                     </li>

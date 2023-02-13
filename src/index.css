@@ -89,6 +89,14 @@ button{
   line-height: 1;
 }
 
+.material-symbols-outlined.checked{
+  color: #BB86fc;
+}
+
+.material-icons.checked{
+  color: #BB86fc;
+}
+
 .bar-title{
   font-size: 1.2rem;
 }
@@ -129,5 +137,13 @@ button{
   color: #121212;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.checked{
+  color: #BB86fc;
+}
+
+.game-box{
+  width: 100px;
 }
 

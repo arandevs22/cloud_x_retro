@@ -49,9 +49,6 @@ function Navbar() {
                                     <ul className="uk-nav-sub">
                                         <li className="uk-margin-small-bottom">
                                             <Link to={'/consoles/super-nintendo'}>
-                                                <span class="material-symbols-outlined uk-margin-right sideMenu">
-                                                    gamepad
-                                                </span>
                                                 <span>
                                                     Super Nintendo
                                                 </span>
@@ -59,9 +56,6 @@ function Navbar() {
                                         </li>
                                         <li>
                                             <Link to={'/game-boy-advance'}>
-                                                <span className="material-symbols-outlined uk-margin-right sideMenu">
-                                                    gamepad
-                                                </span>
                                                 <span>
                                                     Game Boy Advance
                                                 </span>
