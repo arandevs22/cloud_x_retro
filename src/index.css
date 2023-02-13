@@ -44,6 +44,17 @@ button{
   background-color: #BB86fc;
 }
 
+.uk-subnav{
+  flex-wrap: nowrap;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.uk-subnav-pill>.uk-active>a{
+  color: #121212;
+  font-weight: bold;
+}
+
 .uk-offcanvas-bar{
   background: #121212;
 }
