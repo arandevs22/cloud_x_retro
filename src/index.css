@@ -13,9 +13,9 @@ button{
 
 .uk-navbar-container:not(.uk-navbar-transparent){
     background: #232323;
-    -webkit-box-shadow: 0 10px 6px -6px #000;
-    -moz-box-shadow: 0 10px 6px -6px #000;
-    box-shadow: 0 10px 6px -6px #000;
+    -webkit-box-shadow: 0 10px 6px 0px #000;
+    -moz-box-shadow: 0 10px 6px 0px #000;
+    box-shadow: 0 10px 6px 0px #000;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
@@ -112,6 +112,8 @@ button{
 }
 
 .play-btn{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   background: #BB86fc;
   color: #121212;
   padding-top: 5px;
