@@ -6,7 +6,7 @@ function GameBoyAdvance() {
     return (
         <div>
             <Navbar />
-            <div className="uk-container uk-margin-top" data-uk-filter="target: .js-filter">
+            <div className="uk-container uk-margin-top uk-margin-bottom" data-uk-filter="target: .js-filter">
                 <ul className="uk-subnav uk-subnav-pill">
                     <li data-uk-filter-control="[data-color='shooter']">
                         <a href="#">
