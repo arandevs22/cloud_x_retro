@@ -48,17 +48,17 @@ function Navbar() {
                                     </a>
                                     <ul className="uk-nav-sub">
                                         <li className="uk-margin-small-bottom">
-                                            <a href="#">
+                                            <Link to={'/consoles/super-nintendo'}>
                                                 <span class="material-symbols-outlined uk-margin-right sideMenu">
                                                     gamepad
                                                 </span>
                                                 <span>
                                                     Super Nintendo
                                                 </span>
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <Link to={'/consoles/game-boy-advance'}>
+                                            <Link to={'/game-boy-advance'}>
                                                 <span class="material-symbols-outlined uk-margin-right sideMenu">
                                                     gamepad
                                                 </span>

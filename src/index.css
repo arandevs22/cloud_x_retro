@@ -47,6 +47,14 @@ button{
   background: #121212;
 }
 
+.uk-subnav-pill>.uk-active>a{
+  background: #BB86fc;
+}
+
+.uk-subnav-pill>*>:first-child{
+  border-radius: 5px;
+}
+
 .material-symbols-outlined.sideMenu{
   color: #BB86fc;
 }
