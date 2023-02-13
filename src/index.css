@@ -1,6 +1,7 @@
 html{
   background: #121212;
   color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 
 button{
@@ -55,8 +56,26 @@ button{
   border-radius: 5px;
 }
 
+.uk-overlay-primary{
+  background:  rgba(34,34,34,.6) !important;
+}
+
+.uk-button.menu{
+  padding-left: 0px;
+  padding-right: 0px;
+  line-height: 1;
+}
+
+.uk-icon{
+  vertical-align: bottom;
+}
+
 .material-symbols-outlined.sideMenu{
   color: #BB86fc;
+}
+
+.material-symbols-outlined.game{
+  line-height: 1;
 }
 
 .bar-title{
@@ -78,3 +97,19 @@ button{
 .logo{
   width: 150px;
 }
+
+.game-logo{
+  width: 150px;
+}
+
+.game-title-text{
+  font-size: 1.1rem;
+}
+
+.play-btn{
+  background: #BB86fc;
+  color: #121212;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+

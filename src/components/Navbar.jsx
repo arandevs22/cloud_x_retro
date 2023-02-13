@@ -59,7 +59,7 @@ function Navbar() {
                                         </li>
                                         <li>
                                             <Link to={'/game-boy-advance'}>
-                                                <span class="material-symbols-outlined uk-margin-right sideMenu">
+                                                <span className="material-symbols-outlined uk-margin-right sideMenu">
                                                     gamepad
                                                 </span>
                                                 <span>
@@ -78,9 +78,11 @@ function Navbar() {
                     </div>
                 </div>
                 <div className="uk-navbar-right">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
+                    <a className='uk-button menu uk-link-reset' href="http://action_search">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                    </a>
                     <span class="material-symbols-outlined">
                         account_circle
                     </span>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 
 
@@ -18,9 +19,9 @@ function GameBoyAdvance() {
                 </ul>
                 <ul className="js-filter uk-child-width-1-2 uk-text-center uk-grid-small" data-uk-grid>
                     <li data-color="shooter">
-                        <a href="go:gm01">
+                        <Link to={'/game-boy-advance/metal-slug-advance'}>
                             <img className="cover" src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/29ab124d059e51600744303ec829069e.jpg" alt="" />
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
