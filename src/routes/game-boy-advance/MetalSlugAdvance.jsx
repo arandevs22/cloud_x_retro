@@ -16,7 +16,7 @@ function MetalSlugAdvance() {
                     <span className="game-title-text">Metal Slug Advance</span>
                 </div>
                 <div className="uk-margin-bottom">
-                    <a href="https://cloud-retro-gaming.web.app/games/game_boy_advance/metal_slug_advance.html">
+                    <a href="go:gm01">
                         <button className="uk-width-1-1 play-btn uk-border-rounded uk-margin-bottom">
                             <span className="uk-margin-right" data-uk-icon="play-circle"></span>
                             JUGAR AHORA
