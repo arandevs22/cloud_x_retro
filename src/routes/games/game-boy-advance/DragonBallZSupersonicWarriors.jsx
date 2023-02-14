@@ -26,7 +26,7 @@ export default function DragonBallZSupersonicWarriors() {
                                 star
                             </span>
                             <span className="material-symbols-outlined checked">
-                                star-half
+                                star_half
                             </span>
                             <span className="material-symbols-outlined checked">
                                 star
