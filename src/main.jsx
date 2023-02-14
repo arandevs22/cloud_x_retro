@@ -11,6 +11,7 @@ import CastlevaniaAriaOfSorrow from './routes/games/game-boy-advance/Castlevania
 import DragonBallAdvanceAdventure from './routes/games/game-boy-advance/DragonBallAdvanceAdventure';
 import NintendoDs from './routes/consoles/NintendoDs';
 import MarioKartDs from './routes/games/nintendo-ds/MarioKartDs';
+import DragonBallZSupersonicWarriors from './routes/games/game-boy-advance/DragonBallZSupersonicWarriors';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
   {
     path: '/game-boy-advance/dragon-ball-advance-adventure',
     element: <DragonBallAdvanceAdventure />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: '/game-boy-advance/dragon-ball-z-supersonic-warriors',
+    element: <DragonBallZSupersonicWarriors />,
     errorElement: <ErrorPage />,
   },
   {
