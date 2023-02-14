@@ -46,7 +46,7 @@ function GameBoyAdvance() {
                         </Link>
                     </li>
                     <li id="dragon-ball-avance-adventure" data-color="peleas">
-                        <Link to={'/game-boy-advance/metal-slug-advance'}>
+                        <Link to={'/game-boy-advance/dragon-ball-advance-adventure'}>
                             <img className="cover" src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/a7843ff15ebf9f9b7ceda39eb8b1f117.jpg" alt="" />
                         </Link>
                     </li>

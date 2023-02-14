@@ -8,6 +8,7 @@ import SuperNintendo from './routes/consoles/SuperNintendo';
 import './index.css'
 import MetalSlugAdvance from './routes/games/game-boy-advance/MetalSlugAdvance';
 import CastlevaniaAriaOfSorrow from './routes/games/game-boy-advance/CastlevaniaAriaOfSorrow';
+import DragonBallAdvanceAdventure from './routes/games/game-boy-advance/DragonBallAdvanceAdventure';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
   {
     path: '/game-boy-advance/castlevania-aria-of-sorrow',
     element: <CastlevaniaAriaOfSorrow />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: '/game-boy-advance/dragon-ball-advance-adventure',
+    element: <DragonBallAdvanceAdventure />,
     errorElement: <ErrorPage />,
   },
   {
