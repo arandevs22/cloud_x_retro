@@ -28,7 +28,7 @@ export default function DragonBallAdvanceAdventure() {
                             <span className="material-icons checked">
                                 star
                             </span>
-                            <span className="material-icons-oulined checked">
+                            <span className="material-symbols-outlined checked">
                                 star
                             </span>
                         </div>
