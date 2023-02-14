@@ -13,9 +13,6 @@ export default function MetalSlugAdvance() {
             </div>
             <div className="uk-container">
                 <div className="uk-clearfix uk-margin-bottom">
-                    <div className="uk-float-right">
-                        <img className="game-box" src="https://images.launchbox-app.com/8a974d12-e1d8-4c04-9fa2-e29799d012f8.png" alt="" />
-                    </div>
                     <div className="uk-float-left">
                         <span className="game-title-text">Metal Slug Advance</span>
                         <div>

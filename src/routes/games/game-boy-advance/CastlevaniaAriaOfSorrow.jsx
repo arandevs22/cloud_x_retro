@@ -13,9 +13,6 @@ export default function CastlevaniaAriaOfSorrow() {
             </div>
             <div className="uk-container">
                 <div className="uk-clearfix uk-margin-bottom">
-                    <div className="uk-float-right">
-                        <img className="game-box" src="https://images.launchbox-app.com/89290e22-37fe-41fa-8560-44ff1f539263.png" alt="" />
-                    </div>
                     <div className="uk-float-left">
                         <span className="game-title-text">Castlevania Aria Of Sorrow</span>
                         <div>
