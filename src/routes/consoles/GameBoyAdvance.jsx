@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
+import SubNav from "../../components/SubNav";
 
 
 function GameBoyAdvance() {
@@ -7,33 +8,7 @@ function GameBoyAdvance() {
         <div>
             <Navbar />
             <div className="uk-container uk-margin-top uk-margin-bottom" data-uk-filter="target: .js-filter">
-                <ul className="uk-subnav uk-subnav-pill">
-                    <li data-uk-filter-control="[data-color='shooter']">
-                        <a href="#">
-                            Shooter
-                        </a>
-                    </li>
-                    <li data-uk-filter-control="[data-color='plataforma']">
-                        <a href="#">
-                            Plataforma
-                        </a>
-                    </li>
-                    <li data-uk-filter-control="[data-color='peleas']">
-                        <a href="#">
-                            Peleas
-                        </a>
-                    </li>
-                    <li data-uk-filter-control="[data-color='rpg']">
-                        <a href="#">
-                            Rpg
-                        </a>
-                    </li>
-                    <li data-uk-filter-control="[data-color='carreras']">
-                        <a href="#">
-                            Carreras
-                        </a>
-                    </li>
-                </ul>
+                <SubNav />
                 <ul className="js-filter uk-child-width-1-2 uk-text-center uk-grid-small" data-uk-grid>
                     <li id="metal-slug-advance" data-color="shooter">
                         <Link to={'/game-boy-advance/metal-slug-advance'}>

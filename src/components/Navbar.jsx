@@ -54,10 +54,17 @@ function Navbar() {
                                                 </span>
                                             </Link>
                                         </li>
-                                        <li>
+                                        <li className='uk-margin-small-bottom'>
                                             <Link to={'/game-boy-advance'}>
                                                 <span>
                                                     Game Boy Advance
+                                                </span>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link to={'/nintendo-ds'}>
+                                                <span>
+                                                    Nintendo DS
                                                 </span>
                                             </Link>
                                         </li>

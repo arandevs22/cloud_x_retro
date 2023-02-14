@@ -9,6 +9,8 @@ import './index.css'
 import MetalSlugAdvance from './routes/games/game-boy-advance/MetalSlugAdvance';
 import CastlevaniaAriaOfSorrow from './routes/games/game-boy-advance/CastlevaniaAriaOfSorrow';
 import DragonBallAdvanceAdventure from './routes/games/game-boy-advance/DragonBallAdvanceAdventure';
+import NintendoDs from './routes/consoles/NintendoDs';
+import MarioKartDs from './routes/games/nintendo-ds/MarioKartDs';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +41,16 @@ const router = createBrowserRouter([
   {
     path: '/consoles/super-nintendo',
     element: <SuperNintendo />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: '/nintendo-ds',
+    element: <NintendoDs />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: '/nintendo-ds/mario-kart-ds',
+    element: <MarioKartDs />,
     errorElement: <ErrorPage />
   },
 ]);
