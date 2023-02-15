@@ -16,22 +16,12 @@ const Game = () => {
                 <div className="uk-container">
                     <div className="uk-clearfix uk-margin-bottom">
                         <div className="uk-float-left">
-                            <span className="game-title-text">{game.title}</span>
                             <div>
-                                <span className="material-icons checked">
-                                    star
-                                </span>
-                                <span className="material-icons checked">
-                                    star
-                                </span>
-                                <span className="material-icons checked">
-                                    star
-                                </span>
-                                <span className="material-icons checked">
-                                    star
-                                </span>
-                                <span className="material-icons checked">
-                                    star
+                                <span className="game-title-text">{game.title}</span>
+                            </div>
+                            <div>
+                                <span className="game-genre-text">
+                                    Shooter · 2004
                                 </span>
                             </div>
                         </div>

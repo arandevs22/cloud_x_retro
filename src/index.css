@@ -126,7 +126,18 @@ button{
 }
 
 .game-title-text{
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+}
+
+.game-genre-text{
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #BB86fc;
+}
+
+.game-platform-text{
+  font-size: 0.9rem;
+  font-style: italic;
 }
 
 .game-sinopsis{
