@@ -1,4 +1,5 @@
 import { Link, useLoaderData } from 'react-router-dom'
+import Navbar from '../../components/Navbar';
 import SubNav from '../../components/SubNav';
 //elemento que se dibuja en el DOM
 const GameBoyAdvance = () => {
@@ -9,6 +10,7 @@ const GameBoyAdvance = () => {
     return (
 
         <div>
+            <Navbar />
             <div className="uk-container uk-margin-top uk-margin-bottom" data-uk-filter="target: .js-filter">
                 <SubNav />
                 <ul className="js-filter uk-child-width-1-2 uk-text-center uk-grid-small" data-uk-grid>

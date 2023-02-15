@@ -1,4 +1,5 @@
 import { useLoaderData } from 'react-router-dom'
+import Navbar from '../components/Navbar';
 
 
 const Game = () => {
@@ -7,6 +8,7 @@ const Game = () => {
 
     return (
         <>
+            <Navbar />
             <div>
                 <div className="uk-inline uk-margin-bottom">
                     <img src={game.background} alt="" />
