@@ -12,7 +12,7 @@ function Home() {
                                 <span></span>
                             </div>
                             <div className="uk-float-left">
-                                <span className="game-title-text">Recomendados</span>
+                                <span className="slider-text">Recomendados</span>
                             </div>
                         </div>
                         <ul className="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid-small slide" data-uk-grid>
@@ -47,7 +47,7 @@ function Home() {
                         <span></span>
                     </div>
                     <div className="uk-float-left">
-                        <span className="game-title-text">Game Boy Advance</span>
+                        <span className="slider-text">Game Boy Advance</span>
                     </div>
                 </div>
                 <ul className="uk-slider-items uk-child-width-1-3 uk-grid-small slide-cover" data-uk-grid>
