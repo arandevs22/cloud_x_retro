@@ -10,12 +10,8 @@ const Game = () => {
         <>
             <Navbar />
             <div>
-                <div className="uk-inline uk-margin-bottom">
-                    <img src={game.background} alt="" />
-                    <div className="uk-overlay-primary uk-position-cover"></div>
-                    <div className="uk-overlay uk-position-center">
-                        <img className="game-logo" src={game.logo} alt="" />
-                    </div>
+                <div className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-margin-bottom" data-src={game.background} data-uk-img="loading: eager">
+                    <img className="game-logo" src={game.logo} alt="" />
                 </div>
                 <div className="uk-container">
                     <div className="uk-clearfix uk-margin-bottom">
@@ -47,10 +43,10 @@ const Game = () => {
                                 JUGAR AHORA
                             </button>
                         </a>
-                        <button className="uk-width-1-1 play-btn uk-border-rounded">
+                        {/* <button className="uk-width-1-1 play-btn uk-border-rounded">
                             <span className="uk-margin-right" data-uk-icon="heart"></span>
                             AÑADIR A MIS FAVORITOS
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>

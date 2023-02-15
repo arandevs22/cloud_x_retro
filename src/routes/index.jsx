@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 import LayOutPublic from '../layout/LayOutPublic';
 import GameBoyAdvance, { loaderGba } from '../pages/consoles/GameBoyAdvance';
-import ErrorPage from '../pages/error-page';
+import ErrorPage from '../pages/ErrorPage';
 import Game, { loaderGame } from '../pages/Game';
 import Home from '../pages/Home'
 
