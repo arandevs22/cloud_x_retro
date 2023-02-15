@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 function Home() {
     return (
         <div>
-            <Navbar />
             <div data-uk-slider className="uk-margin-top uk-margin-left">
                 <div className="uk-position-relative">
                     <div className="uk-slider-container">

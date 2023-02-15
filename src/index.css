@@ -4,6 +4,10 @@ html{
   font-family: 'Poppins', sans-serif;
 }
 
+h1{
+  color: #fff;
+}
+
 button{
   color: #fff;
   background: none;
