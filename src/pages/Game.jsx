@@ -21,7 +21,7 @@ const Game = () => {
                             </div>
                             <div>
                                 <span className="game-genre-text">
-                                    Shooter · 2004
+                                    {game.genre} · {game.year}
                                 </span>
                             </div>
                         </div>
