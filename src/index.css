@@ -1,159 +1,161 @@
-html{
+html {
   background: #121212;
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
 
-h1{
+h1 {
   color: #fff;
 }
 
-button{
+button {
   color: #fff;
   background: none;
   box-shadow: none;
   border-color: transparent;
 }
 
-.uk-navbar-container:not(.uk-navbar-transparent){
-    background: #232323;
-    -webkit-box-shadow: 0 10px 6px 0px #000;
-    -moz-box-shadow: 0 10px 6px 0px #000;
-    box-shadow: 0 10px 6px 0px #000;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #232323;
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.7);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.uk-grid.slide{
+.uk-grid.slide {
   margin-right: -300px;
 }
 
-.uk-grid.slide-cover{
+.uk-grid.slide-cover {
   margin-right: -50px;
 }
 
-.uk-navbar-left, .uk-navbar-right, [class*=uk-navbar-center]{
+.uk-navbar-left,
+.uk-navbar-right,
+[class*=uk-navbar-center] {
   row-gap: 15px;
   column-gap: 15px;
 }
 
-.uk-dotnav>*>*{
+.uk-dotnav>*>* {
   background-color: #232323;
   border-color: #232323;
 }
 
-.uk-dotnav>.uk-active>*{
+.uk-dotnav>.uk-active>* {
   background-color: #BB86fc;
 }
 
-.uk-subnav{
+.uk-subnav {
   flex-wrap: nowrap;
   overflow-y: scroll;
   overflow-x: scroll;
 }
 
-.uk-subnav-pill>.uk-active>a{
+.uk-subnav-pill>.uk-active>a {
   color: #121212;
   font-weight: bold;
 }
 
-.uk-offcanvas-bar{
+.uk-offcanvas-bar {
   background: #121212;
 }
 
-.uk-subnav-pill>.uk-active>a{
+.uk-subnav-pill>.uk-active>a {
   background: #BB86fc;
 }
 
-.uk-subnav-pill>*>:first-child{
+.uk-subnav-pill>*>:first-child {
   border-radius: 5px;
 }
 
-.uk-overlay-primary{
-  background:  rgba(34,34,34,.6) !important;
+.uk-overlay-primary {
+  background: rgba(34, 34, 34, .6) !important;
 }
 
-.uk-button.menu{
+.uk-button.menu {
   padding-left: 0px;
   padding-right: 0px;
   line-height: 1;
 }
 
-.uk-icon{
+.uk-icon {
   vertical-align: bottom;
 }
 
-.material-symbols-outlined.sideMenu{
+.material-symbols-outlined.sideMenu {
   color: #BB86fc;
 }
 
-.material-symbols-outlined.game{
+.material-symbols-outlined.game {
   line-height: 1;
 }
 
-.material-symbols-outlined.checked{
+.material-symbols-outlined.checked {
   color: #BB86fc;
 }
 
-.material-icons.checked{
+.material-icons.checked {
   color: #BB86fc;
 }
 
-.material-symbols-outlined.menu{
+.material-symbols-outlined.menu {
   font-size: 1.8rem;
 }
 
-.bar-title{
+.bar-title {
   font-size: 1.2rem;
 }
 
-.cover{
+.cover {
   border-radius: 15px;
 }
 
-.error-image{
+.error-image {
   width: 250px;
 }
 
-.menu-text{
+.menu-text {
   font-size: 20px;
 }
 
-.logo{
+.logo {
   width: 150px;
 }
 
-.game-logo{
+.game-logo {
   width: 250px;
 }
 
-.game-title-text{
+.game-title-text {
   font-size: 1.4rem;
 }
 
-.game-genre-text{
+.game-genre-text {
   font-size: 0.9rem;
   font-style: italic;
   color: #BB86fc;
 }
 
-.game-platform-text{
+.game-platform-text {
   font-size: 0.9rem;
   font-style: italic;
 }
 
-.game-sinopsis{
+.game-sinopsis {
   font-size: .8rem;
   font-style: italic;
 }
 
-.slider-text{
+.slider-text {
   font-size: 1.2rem;
 }
 
-.play-btn{
+.play-btn {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   background: #BB86fc;
@@ -162,13 +164,10 @@ button{
   padding-bottom: 5px;
 }
 
-.checked{
+.checked {
   color: #BB86fc;
 }
 
-.game-box{
+.game-box {
   width: 100px;
 }
-
-
-

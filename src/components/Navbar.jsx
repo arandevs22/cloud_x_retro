@@ -26,16 +26,6 @@ function Navbar() {
                                         </span>
                                     </Link>
                                 </li>
-                                <li className="uk-active">
-                                    <a href="">
-                                        <span className="material-symbols-outlined sideMenu uk-margin-right">
-                                            favorite
-                                        </span>
-                                        <span className="menu-text">
-                                            Mis Favoritos
-                                        </span>
-                                    </a>
-                                </li>
                                 <li className="uk-parent uk-active">
                                     <a href="#">
                                         <span className="material-symbols-outlined sideMenu uk-margin-right">
@@ -84,9 +74,6 @@ function Navbar() {
                             search
                         </span>
                     </a>
-                    <span class="material-symbols-outlined menu">
-                        account_circle
-                    </span>
                 </div>
             </nav>
         </div>

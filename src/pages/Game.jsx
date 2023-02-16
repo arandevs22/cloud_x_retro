@@ -33,10 +33,12 @@ const Game = () => {
                                 JUGAR AHORA
                             </button>
                         </Link>
-                        {/* <button className="uk-width-1-1 play-btn uk-border-rounded">
-                            <span className="uk-margin-right" data-uk-icon="heart"></span>
-                            AÑADIR A MIS FAVORITOS
-                        </button> */}
+                        <Link to={game.rom}>
+                            <button className="uk-width-1-1 play-btn uk-border-rounded uk-margin-bottom">
+                                <span className="uk-margin-right" data-uk-icon="cloud-download"></span>
+                                DESCARGAR ROM
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

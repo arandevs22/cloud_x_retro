@@ -1,27 +1,27 @@
 export default function SubNav() {
     return (
         <ul className="uk-subnav uk-subnav-pill">
-            <li data-uk-filter-control="[data-color='shooter']">
+            <li data-uk-filter-control="[data-color='Shooter']">
                 <a href="#">
                     Shooter
                 </a>
             </li>
-            <li data-uk-filter-control="[data-color='plataforma']">
+            <li data-uk-filter-control="[data-color='Plataforma']">
                 <a href="#">
                     Plataforma
                 </a>
             </li>
-            <li data-uk-filter-control="[data-color='peleas']">
+            <li data-uk-filter-control="[data-color='Peleas']">
                 <a href="#">
                     Peleas
                 </a>
             </li>
-            <li data-uk-filter-control="[data-color='rpg']">
+            <li data-uk-filter-control="[data-color='Rpg']">
                 <a href="#">
                     Rpg
                 </a>
             </li>
-            <li data-uk-filter-control="[data-color='carreras']">
+            <li data-uk-filter-control="[data-color='Carreras']">
                 <a href="#">
                     Carreras
                 </a>
