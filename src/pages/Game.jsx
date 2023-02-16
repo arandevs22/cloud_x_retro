@@ -1,4 +1,4 @@
-import { useLoaderData } from 'react-router-dom'
+import { useLoaderData, Link } from 'react-router-dom'
 import Navbar from '../components/Navbar';
 
 
@@ -27,12 +27,12 @@ const Game = () => {
                         </div>
                     </div>
                     <div className="uk-margin-bottom">
-                        <a href={game.refence}>
+                        <Link to={game.reference}>
                             <button className="uk-width-1-1 play-btn uk-border-rounded uk-margin-bottom">
                                 <span className="uk-margin-right" data-uk-icon="play-circle"></span>
                                 JUGAR AHORA
                             </button>
-                        </a>
+                        </Link>
                         {/* <button className="uk-width-1-1 play-btn uk-border-rounded">
                             <span className="uk-margin-right" data-uk-icon="heart"></span>
                             AÑADIR A MIS FAVORITOS
