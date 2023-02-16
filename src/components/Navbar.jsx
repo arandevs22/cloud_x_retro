@@ -45,14 +45,14 @@ function Navbar() {
                                             </Link>
                                         </li>
                                         <li className='uk-margin-small-bottom'>
-                                            <Link to={'/consoles/game-boy-advance'}>
+                                            <Link to={'/games/game-boy-advance'}>
                                                 <span>
                                                     Game Boy Advance
                                                 </span>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link to={'/nintendo-ds'}>
+                                            <Link to={'/games/nintendo-ds'}>
                                                 <span>
                                                     Nintendo DS
                                                 </span>

@@ -17,7 +17,7 @@ const GameBoyAdvance = () => {
                     {gamesGba.length > 0 ? (
                         gamesGba.map((game) => (
                             <li data-color={game.genre} key={game.id}>
-                                <Link to={`/consoles/game-boy-advance/${game.id}`}>
+                                <Link to={`/games/game-boy-advance/id/${game.id}`}>
                                     <img className="cover" src={game.poster} alt="" />
                                 </Link>
                             </li>
@@ -36,7 +36,7 @@ export default GameBoyAdvance;
 
 //Consumo de API
 export const loaderGba = async () => {
-    const res = await fetch('https://apiretrogame-production.up.railway.app/api/games/')
+    const res = await fetch('https://apiretrogame-production.up.railway.app/api/games/game-boy-advance/')
     const gamesGba = await res.json();
 
     return { gamesGba };

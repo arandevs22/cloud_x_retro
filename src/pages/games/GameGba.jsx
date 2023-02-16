@@ -1,8 +1,8 @@
 import { useLoaderData, Link } from 'react-router-dom'
-import Navbar from '../components/Navbar';
+import Navbar from '../../components/Navbar';
 
 
-const Game = () => {
+const GameGba = () => {
 
     const { game } = useLoaderData()
 
@@ -46,10 +46,10 @@ const Game = () => {
     )
 };
 
-export default Game;
+export default GameGba;
 
-export const loaderGame = async ({ params }) => {
-    const res = await fetch(`https://apiretrogame-production.up.railway.app/api/games/${params.id}`);
+export const loaderGameGba = async ({ params }) => {
+    const res = await fetch(`https://apiretrogame-production.up.railway.app/api/games/game-boy-advance/id/${params.id}`);
 
     const game = await res.json();
     return { game };

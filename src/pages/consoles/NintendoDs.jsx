@@ -1,22 +1,43 @@
-import { Link } from "react-router-dom";
-import Navbar from "../../components/Navbar";
-import SubNav from "../../components/SubNav";
+import { Link, useLoaderData } from 'react-router-dom'
+import Navbar from '../../components/Navbar';
+import SubNav from '../../components/SubNav';
+//elemento que se dibuja en el DOM
+const NintendoDs = () => {
 
+    const { nintendoDs } = useLoaderData();
+    console.log(nintendoDs);
 
-export default function NintendoDs() {
     return (
+
         <div>
             <Navbar />
             <div className="uk-container uk-margin-top uk-margin-bottom" data-uk-filter="target: .js-filter">
                 <SubNav />
                 <ul className="js-filter uk-child-width-1-2 uk-text-center uk-grid-small" data-uk-grid>
-                    <li id="mario-kart-ds" data-color="carreras">
-                        <Link to={'/nintendo-ds/mario-kart-ds'}>
-                            <img className="cover" src="https://cdn2.steamgriddb.com/file/sgdb-cdn/thumb/3eed6d27b0b2dd008c1be88cce8245fc.jpg" alt="" />
-                        </Link>
-                    </li>
+                    {nintendoDs.length > 0 ? (
+                        nintendoDs.map((game) => (
+                            <li data-color={game.genre} key={game.id}>
+                                <Link to={`/games/nintendo-ds/id/${game.id}`}>
+                                    <img className="cover" src={game.poster} alt="" />
+                                </Link>
+                            </li>
+                        ))
+                    ) : (
+                        <li>No games found</li>
+                    )}
+
                 </ul>
             </div>
         </div>
-    )
+    );
+};
+
+export default NintendoDs;
+
+//Consumo de API
+export const loaderDs = async () => {
+    const res = await fetch('https://apiretrogame-production.up.railway.app/api/games/nintendo-ds/')
+    const nintendoDs = await res.json();
+
+    return { nintendoDs };
 }
