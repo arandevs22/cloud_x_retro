@@ -26,6 +26,11 @@ export default function SubNav() {
                     carreras
                 </a>
             </li>
+            <li data-uk-filter-control="[data-color='deportes']">
+                <a href="#">
+                    deportes
+                </a>
+            </li>
         </ul>
     )
 }
