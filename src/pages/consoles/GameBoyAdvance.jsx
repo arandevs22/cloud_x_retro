@@ -5,7 +5,6 @@ import SubNav from '../../components/SubNav';
 const GameBoyAdvance = () => {
 
     const { gamesGba } = useLoaderData();
-    console.log(gamesGba);
 
     return (
 

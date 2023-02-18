@@ -8,11 +8,24 @@ const GameGba = () => {
 
     return (
         <>
-            <Navbar />
-            <div>
-                <div className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-margin-bottom" data-src={game.background} data-uk-img="loading: eager">
+            <div className="uk-position-relative">
+                <div className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-primary uk-margin-bottom" data-src={game.background} data-uk-img="loading: eager">
+                </div>
+                <div className="uk-overlay-primary uk-position-cover"></div>
+                <div className="uk-overlay uk-position-center">
                     <img className="game-logo" src={game.logo} alt="" />
                 </div>
+                <div className="uk-position-top">
+                    <nav className="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+                        <div className='uk-navbar-left'>
+                            <span className="material-symbols-outlined menu">
+                                arrow_back_ios_new
+                            </span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div>
                 <div className="uk-container">
                     <div className="uk-clearfix uk-margin-bottom">
                         <div className="uk-float-left">

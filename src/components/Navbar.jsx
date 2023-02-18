@@ -9,7 +9,7 @@ function Navbar() {
             <nav data-uk-navbar data-uk-sticky className="uk-navbar-container">
                 <div className="uk-navbar-left">
                     <button type="button" data-uk-toggle="target: #side-menu">
-                        <span class="material-symbols-outlined menu">
+                        <span className="material-symbols-outlined menu">
                             menu
                         </span>
                     </button>
@@ -70,7 +70,7 @@ function Navbar() {
                 </div>
                 <div className="uk-navbar-right">
                     <a className='uk-button menu uk-link-reset' href="http://action_search">
-                        <span class="material-symbols-outlined menu">
+                        <span className="material-symbols-outlined menu">
                             search
                         </span>
                     </a>
