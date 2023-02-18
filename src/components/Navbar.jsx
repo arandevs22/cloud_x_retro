@@ -16,7 +16,7 @@ function Navbar() {
                     <div id="side-menu" data-uk-offcanvas="overlay: true">
                         <div className="uk-offcanvas-bar uk-flex uk-flex-column">
                             <ul className="uk-nav" data-uk-nav>
-                                <li className="uk-active">
+                                <li>
                                     <Link to={'/'}>
                                         <span className="material-symbols-outlined sideMenu uk-margin-right">
                                             home
@@ -26,7 +26,7 @@ function Navbar() {
                                         </span>
                                     </Link>
                                 </li>
-                                <li className="uk-parent uk-active">
+                                <li className="uk-parent">
                                     <a href="#">
                                         <span className="material-symbols-outlined sideMenu uk-margin-right">
                                             sports_esports

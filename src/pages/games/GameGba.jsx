@@ -6,6 +6,10 @@ const GameGba = () => {
 
     const { game } = useLoaderData()
 
+    const backbutton = () => {
+        history.back()
+    }
+
     return (
         <>
             <div className="uk-position-relative">
@@ -18,9 +22,11 @@ const GameGba = () => {
                 <div className="uk-position-top">
                     <nav className="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
                         <div className='uk-navbar-left'>
-                            <span className="material-symbols-outlined menu">
-                                arrow_back_ios_new
-                            </span>
+                            <button onClick={backbutton}>
+                                <span className="material-symbols-outlined menu">
+                                    arrow_back_ios_new
+                                </span>
+                            </button>
                         </div>
                     </nav>
                 </div>
