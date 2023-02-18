@@ -31,6 +31,21 @@ export default function SubNav() {
                     deportes
                 </a>
             </li>
+            <li data-uk-filter-control="[data-color='cartas']">
+                <a href="#">
+                    cartas
+                </a>
+            </li>
+            <li data-uk-filter-control="[data-color='estrategia']">
+                <a href="#">
+                    estrategia
+                </a>
+            </li>
+            <li data-uk-filter-control="[data-color='beat em up']">
+                <a href="#">
+                    beat em up
+                </a>
+            </li>
         </ul>
     )
 }
