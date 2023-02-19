@@ -13,6 +13,7 @@ button {
   background: none;
   box-shadow: none;
   border-color: transparent;
+  padding: 0;
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
@@ -96,6 +97,10 @@ button {
   vertical-align: bottom;
 }
 
+.uk-overlay-primary{
+  background: rgba(12, 12, 12, .7) !important;
+}
+
 .material-symbols-outlined.sideMenu {
   color: #BB86fc;
 }
@@ -114,6 +119,15 @@ button {
 
 .material-symbols-outlined.menu {
   font-size: 1.8rem;
+}
+
+.material-icons.menu{
+  font-size: 1.8rem;
+}
+
+.material-icons.fav{
+  font-size: 1.8rem;
+  color: #BB86fc;
 }
 
 .bar-title {

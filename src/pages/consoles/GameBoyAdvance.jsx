@@ -12,7 +12,7 @@ const GameBoyAdvance = () => {
             <Navbar />
             <div className="uk-container uk-margin-top uk-margin-bottom" data-uk-filter="target: .js-filter">
                 <SubNav />
-                <ul className="js-filter uk-child-width-1-3 uk-text-center uk-grid-small" data-uk-grid>
+                <ul className="js-filter uk-child-width-1-3 uk-child-width-1-5@m uk-child-width-1-6@l uk-text-center uk-grid-small" data-uk-grid>
                     {gamesGba.length > 0 ? (
                         gamesGba.map((game) => (
                             <li data-color={game.genre} key={game.id}>

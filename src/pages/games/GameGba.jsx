@@ -1,6 +1,6 @@
 import { useLoaderData, Link } from 'react-router-dom'
-import Navbar from '../../components/Navbar';
-
+import { useState } from 'react';
+import 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
 
 const GameGba = () => {
 
@@ -10,12 +10,19 @@ const GameGba = () => {
         history.back()
     }
 
+    const [fav, setFav] = useState(false);
+
+    const favButton = () => {
+        setFav(!fav);
+        console.log(fav);
+    }
+
     return (
         <>
             <div className="uk-position-relative">
                 <div className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-primary uk-margin-bottom" data-src={game.background} data-uk-img="loading: eager">
                 </div>
-                <div className="uk-overlay-primary uk-position-cover"></div>
+                <div className="uk-position-cover uk-overlay-primary"></div>
                 <div className="uk-overlay uk-position-center">
                     <img className="game-logo" src={game.logo} alt="" />
                 </div>
@@ -26,6 +33,16 @@ const GameGba = () => {
                                 <span className="material-symbols-outlined menu">
                                     arrow_back_ios_new
                                 </span>
+                            </button>
+                        </div>
+                        <div className='uk-navbar-right'>
+                            <button onClick={favButton}>
+                                {fav ? <span className="material-icons fav">
+                                    favorite
+                                </span> : <span className="material-icons menu">
+                                    favorite_border
+                                </span>
+                                }
                             </button>
                         </div>
                     </nav>
