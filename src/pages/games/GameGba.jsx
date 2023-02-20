@@ -10,11 +10,12 @@ const GameGba = () => {
         history.back()
     }
 
-    const [fav, setFav] = useState(false);
+    const [fav, setFav] = useState(true);
 
     const favButton = () => {
         setFav(!fav);
-        console.log(fav);
+        console.log(fav)
+
     }
 
     return (
@@ -37,10 +38,10 @@ const GameGba = () => {
                         </div>
                         <div className='uk-navbar-right'>
                             <button onClick={favButton}>
-                                {fav ? <span className="material-icons fav">
-                                    favorite
-                                </span> : <span className="material-icons menu">
+                                {fav ? <span className="material-icons menu">
                                     favorite_border
+                                </span> : <span className="material-icons fav">
+                                    favorite
                                 </span>
                                 }
                             </button>
