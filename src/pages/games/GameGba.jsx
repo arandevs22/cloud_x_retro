@@ -32,7 +32,7 @@ const GameGba = () => {
                         <div className='uk-navbar-left'>
                             <button onClick={backbutton}>
                                 <span className="material-symbols-outlined menu">
-                                    arrow_back_ios_new
+                                    arrow_back
                                 </span>
                             </button>
                         </div>

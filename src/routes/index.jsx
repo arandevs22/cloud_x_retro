@@ -2,7 +2,6 @@ import { createBrowserRouter } from 'react-router-dom'
 import LayOutPublic from '../layout/LayOutPublic';
 import GameBoyAdvance, { loaderGba } from '../pages/consoles/GameBoyAdvance';
 import NintendoDs, { loaderDs } from '../pages/consoles/NintendoDs';
-import Ejemplo from '../pages/consoles/SuperNintendo';
 import ErrorPage from '../pages/ErrorPage';
 import GameDs, { loaderGameDs } from '../pages/games/GameDs';
 import GameGba, { loaderGameGba } from '../pages/games/GameGba';
@@ -39,10 +38,6 @@ export const router = createBrowserRouter([
                 path: '/games/nintendo-ds/id/:id',
                 element: <GameDs />,
                 loader: loaderGameDs
-            },
-            {
-                path: '/games/super-nintendo',
-                element: <Ejemplo />
             },
         ]
     },
