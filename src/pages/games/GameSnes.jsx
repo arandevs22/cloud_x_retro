@@ -1,13 +1,10 @@
 import { useLoaderData, Link } from 'react-router-dom'
 import { useState } from 'react';
+import NavGames from '../../components/NavGames';
 
 const GameSnes = () => {
 
     const { game } = useLoaderData()
-
-    const backbutton = () => {
-        history.back()
-    }
 
     const [fav, setFav] = useState(true);
 
@@ -18,34 +15,14 @@ const GameSnes = () => {
     }
 
     return (
-        <>
+        <>  
+            <NavGames />
             <div className="uk-position-relative">
                 <div className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-primary uk-margin-bottom" data-src={game.background} data-uk-img="loading: eager">
                 </div>
                 <div className="uk-position-cover uk-overlay-primary"></div>
                 <div className="uk-overlay uk-position-center">
                     <img className="game-logo" src={game.logo} alt="" />
-                </div>
-                <div className="uk-position-top">
-                    <nav className="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
-                        <div className='uk-navbar-left'>
-                            <button onClick={backbutton}>
-                                <span className="material-symbols-outlined menu">
-                                    arrow_back
-                                </span>
-                            </button>
-                        </div>
-                        <div className='uk-navbar-right'>
-                            <button onClick={favButton}>
-                                {fav ? <span className="material-icons menu">
-                                    favorite_border
-                                </span> : <span className="material-icons fav">
-                                    favorite
-                                </span>
-                                }
-                            </button>
-                        </div>
-                    </nav>
                 </div>
             </div>
             <div>
@@ -69,12 +46,12 @@ const GameSnes = () => {
                                 JUGAR AHORA
                             </button>
                         </Link>
-                        <Link to={game.rom}>
+                        {/* <Link to={game.rom}>
                             <button className="uk-width-1-1 play-btn uk-border-rounded uk-margin-bottom">
                                 <span className="uk-margin-right" data-uk-icon="cloud-download"></span>
                                 DESCARGAR ROM
                             </button>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>

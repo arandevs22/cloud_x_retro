@@ -14,8 +14,6 @@ const GameGba = () => {
 
     const favButton = () => {
         setFav(!fav);
-        console.log(fav)
-
     }
 
     return (
@@ -70,12 +68,12 @@ const GameGba = () => {
                                 JUGAR AHORA
                             </button>
                         </Link>
-                        <Link to={game.rom}>
+                        {/* <Link to={game.rom}>
                             <button className="uk-width-1-1 play-btn uk-border-rounded uk-margin-bottom">
                                 <span className="uk-margin-right" data-uk-icon="cloud-download"></span>
                                 DESCARGAR ROM
                             </button>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>

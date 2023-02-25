@@ -64,9 +64,9 @@ function Navbar() {
                             </ul>
                         </div>
                     </div>
-                    <div>
-                        <img className='logo' src={Logo} alt="" />
-                    </div>
+                </div>
+                <div className='uk-navbar-center'>
+                    <img className='logo' src={Logo} alt="" />
                 </div>
                 <div className="uk-navbar-right">
                     <a className='uk-button menu uk-link-reset' href="http://action_search">
