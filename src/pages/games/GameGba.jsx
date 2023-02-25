@@ -1,6 +1,4 @@
 import { useLoaderData, Link } from 'react-router-dom'
-import { useState } from 'react';
-import 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
 import NavGames from '../../components/NavGames';
 
 const GameGba = () => {
