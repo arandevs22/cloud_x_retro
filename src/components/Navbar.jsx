@@ -32,13 +32,13 @@ function Navbar() {
                                             sports_esports
                                         </span>
                                         <span className="menu-text">
-                                            Consolas
+                                            Juegos
                                         </span>
                                         <span data-uk-nav-parent-icon></span>
                                     </a>
                                     <ul className="uk-nav-sub">
                                         <li className="uk-margin-small-bottom">
-                                            <Link to={'/consoles/super-nintendo'}>
+                                            <Link to={'/games/super-nintendo'}>
                                                 <span>
                                                     Super Nintendo
                                                 </span>
