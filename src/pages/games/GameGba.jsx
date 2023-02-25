@@ -1,50 +1,21 @@
 import { useLoaderData, Link } from 'react-router-dom'
 import { useState } from 'react';
 import 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
+import NavGames from '../../components/NavGames';
 
 const GameGba = () => {
 
     const { game } = useLoaderData()
 
-    const backbutton = () => {
-        history.back()
-    }
-
-    const [fav, setFav] = useState(true);
-
-    const favButton = () => {
-        setFav(!fav);
-    }
-
     return (
         <>
+            <NavGames />
             <div className="uk-position-relative">
                 <div className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-primary uk-margin-bottom" data-src={game.background} data-uk-img="loading: eager">
                 </div>
                 <div className="uk-position-cover uk-overlay-primary"></div>
                 <div className="uk-overlay uk-position-center">
                     <img className="game-logo" src={game.logo} alt="" />
-                </div>
-                <div className="uk-position-top">
-                    <nav className="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
-                        <div className='uk-navbar-left'>
-                            <button onClick={backbutton}>
-                                <span className="material-symbols-outlined menu">
-                                    arrow_back
-                                </span>
-                            </button>
-                        </div>
-                        <div className='uk-navbar-right'>
-                            <button onClick={favButton}>
-                                {fav ? <span className="material-icons menu">
-                                    favorite_border
-                                </span> : <span className="material-icons fav">
-                                    favorite
-                                </span>
-                                }
-                            </button>
-                        </div>
-                    </nav>
                 </div>
             </div>
             <div>
