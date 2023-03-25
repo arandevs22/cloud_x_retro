@@ -32,29 +32,22 @@ function Navbar() {
                                             sports_esports
                                         </span>
                                         <span className="menu-text">
-                                            Juegos
+                                            Generos
                                         </span>
                                         <span data-uk-nav-parent-icon></span>
                                     </a>
                                     <ul className="uk-nav-sub">
                                         <li className="uk-margin-small-bottom">
-                                            <Link to={'/games/super-nintendo'}>
+                                            <Link to={'/games/genre/shooter'}>
                                                 <span>
-                                                    Super Nintendo
+                                                    Shooter
                                                 </span>
                                             </Link>
                                         </li>
-                                        <li className='uk-margin-small-bottom'>
-                                            <Link to={'/games/game-boy-advance'}>
+                                        <li className="uk-margin-small-bottom">
+                                            <Link to={'/games/genre/plataforma'}>
                                                 <span>
-                                                    Game Boy Advance
-                                                </span>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to={'/games/nintendo-ds'}>
-                                                <span>
-                                                    Nintendo DS
+                                                    Plataforma
                                                 </span>
                                             </Link>
                                         </li>
