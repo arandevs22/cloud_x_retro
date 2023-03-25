@@ -1,4 +1,5 @@
 import { Link, useLoaderData } from "react-router-dom";
+import GoTop from "../../components/GoTop";
 
 const Shooter = () => {
 
@@ -35,6 +36,7 @@ const Shooter = () => {
                     </ul>
                 </div>
             </div>
+            <GoTop />
         </>
     )
 }

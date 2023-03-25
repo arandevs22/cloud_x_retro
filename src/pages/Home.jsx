@@ -1,3 +1,4 @@
+import GoTop from "../components/GoTop";
 import Navbar from "../components/Navbar";
 
 function Home() {
@@ -74,6 +75,7 @@ function Home() {
                     </li>
                 </ul>
             </div>
+            <GoTop />
         </div>
     )
 }

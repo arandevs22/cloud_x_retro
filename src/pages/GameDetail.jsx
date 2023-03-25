@@ -1,4 +1,5 @@
 import { useLoaderData, Link } from 'react-router-dom'
+import GoTop from '../components/GoTop.js';
 import NavGames from '../components/NavGames.jsx';
 
 const GameDetail = () => {
@@ -52,6 +53,7 @@ const GameDetail = () => {
                     </div>
                 </div>
             </div>
+            <GoTop />
         </>
     )
 };

@@ -26,6 +26,16 @@ function Navbar() {
                                         </span>
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to={'/games'}>
+                                        <span className="material-symbols-outlined sideMenu uk-margin-right">
+                                            videogame_asset
+                                        </span>
+                                        <span className="menu-text">
+                                            Todos los juegos
+                                        </span>
+                                    </Link>
+                                </li>
                                 <li className="uk-parent">
                                     <a href="#">
                                         <span className="material-symbols-outlined sideMenu uk-margin-right">

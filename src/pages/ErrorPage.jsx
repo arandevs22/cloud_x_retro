@@ -1,5 +1,6 @@
 import { Link, useRouteError } from "react-router-dom";
 import imageError from '../assets/404_error.png'
+import GoTop from "../components/GoTop";
 import Navbar from "../components/Navbar";
 
 export default function ErrorPage() {

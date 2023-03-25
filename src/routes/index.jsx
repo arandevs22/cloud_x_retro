@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom'
 import LayOutPublic from '../layout/LayOutPublic';
 import ErrorPage from '../pages/ErrorPage';
 import GameDetail, { loaderGames } from '../pages/GameDetail';
+import Games, { loaderGamesPage } from '../pages/Games';
 import Plataforma, { loaderPlataforma } from '../pages/generos/Plataforma';
 import Shooter, { loaderShooter } from '../pages/generos/Shooter';
 import Home from '../pages/Home';
@@ -17,6 +18,11 @@ export const router = createBrowserRouter([
             {
                 index: true,
                 element: <Home />
+            },
+            {
+                path: '/games',
+                element: <Games />,
+                loader: loaderGamesPage
             },
             {
                 path: '/games/id/:id',
